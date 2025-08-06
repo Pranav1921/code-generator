@@ -6,7 +6,7 @@ import Fullpageloader from "./components/Fullpageloader";
 
 
 function App() {
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(false )
   const handleInput = (inputValue) => {
     console.log(inputValue);
   };
